@@ -1,0 +1,29 @@
+Data Set Information:
+---------------------
+Amazon Fine Food Reviews
+Analyze ~500,000 food reviews from Amazon
+
+Context
+-------
+This dataset consists of reviews of fine foods from amazon. 
+The data span a period of more than 10 years, including all ~500,000 reviews up to October 2012. 
+Reviews include product and user information, ratings, and a plain text review. 
+It also includes reviews from all other Amazon categories.
+
+Contents
+--------
+Reviews.csv: https://www.kaggle.com/snap/amazon-fine-food-reviews/downloads/amazon-fine-food-reviews.zip/2
+
+Attribute Information:
+------------------------
+1.  #IdRow 		   (Id)
+2.  #ProductId	   (Unique identifier for the product)
+3.  #UserId        (Unqiue identifier for the user) 
+4.  #ProfileName   (Profile name of the user) 
+5.  #HelpfulnessNumerator   (Number of users who found the review helpful) 
+6.  #HelpfulnessDenominator (Number of users who indicated whether they found the review helpful or not) 
+7.  #ScoreRating   (between 1 and 5) 
+8.  #TimeTimestamp (for the review) 
+9.  #SummaryBrief  (summary of the review) 
+10. #Text          (Text of the review) 
+
